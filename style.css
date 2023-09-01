@@ -1,0 +1,351 @@
+
+
+html{
+    background-image: url(Images/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    /* background-color: rgb(112, 110, 110); */
+    /* background-color: #C0C0C0; */
+    overflow-x: hidden;
+}
+
+.all{
+    display: flex;
+}
+
+.lekan{
+    position: relative;
+    top: 80px;
+    left: 190px;
+}
+
+.lekan img{
+   width: 35%;
+    border-radius: 50%;
+}
+
+.button{
+    color: white;
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+
+.button h2{
+    position: relative;
+    margin-bottom: 30px;
+    bottom: 20px;
+    color: red;
+    font-size: 40px;
+}
+
+.button h1{
+    color: white;
+    text-shadow: #3b3939;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    
+}
+
+.button p{
+    position: relative;
+    bottom: 30px;
+    line-height: 25px;
+}
+
+.link {
+    position: relative;
+    left: 1070px;
+}
+
+.link ul{
+    margin:0;
+    padding: 0px;
+}
+.link li{
+    list-style: None;
+    float: Left;
+    margin-right:5px;
+}
+
+.link a{
+    color: black;
+    text-decoration: none;
+    padding: 2px 20px;
+    /* border:2px solid rgb(247, 247, 247); */
+    border-bottom:None;
+    background-color: #f0e8e8;
+    border-radius: 20px;
+}
+
+
+@media screen and(max-width: 580px) {
+    .link li{
+        width: 33.332%;
+        margin-right: 0%;
+    }
+
+    link a{
+        padding: 15px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+
+    }    
+}
+
+.link a:hover{
+    background-color: rgba(42, 21, 231, 0.24);
+}
+/* end site navigation*/
+
+.para{  
+    display: flex;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    position: relative;
+    bottom: 45px;
+}
+
+
+.about a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-bottom:None;
+    background-color: #eb0404;
+    border-radius: 20px;
+    height: 70px;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.about a:hover{
+    background-color: rgb(145, 62, 62);
+}
+
+.project a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-bottom:None;
+    border-radius: 20px;
+    height: 40px;
+    background-color: goldenrod;
+    left: 30px;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.project a:hover{
+    background-color: rgb(170, 148, 92);
+}
+
+
+.resume a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-bottom:None;
+    background-color: black;
+    border-radius: 20px;
+    height: 40px;
+    left: 60px;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.resume a:hover{
+    background-color: rgb(54, 49, 49);
+}
+
+.contact a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    border-bottom:None;
+    background-color: blue;
+    border-radius: 20px;
+    height: 40px;
+    left: 90px;
+    /* transition: 0.5s;
+    transition-timing-function: ease-in; */
+    transition: margin-right 2s;
+}
+
+.contact a:hover{
+    background-color: rgb(98, 80, 150);
+}
+
+
+.phone{
+    position: relative;
+    left: 250px;
+}
+
+.email{
+    position: relative;
+    left: 500px;
+}
+
+.follow{
+    position: relative;
+    left: 700px;
+}
+
+.media img{
+    position: relative;
+    left: 1180px;
+    bottom: 30px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+
+.about-page{
+    /* border: 1px solid;
+    background: linear-gradient(rgba(122, 66, 66, 0.3), rgba(136, 45, 45, 0.3)), url(Images/me.png);
+    background-color: black;
+    background-position: right;
+    background-color: blackaqua; */
+    color: white;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    text-justify: auto;
+    border-color: none;
+}
+
+.about-page h1{
+    /* position: absolute;
+    top: 20px; */
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 250%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.the-about p{
+    text-justify: auto;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.contact-container{
+    position: relative;
+    left: 200px;
+    border: 1px solid white;
+    /* background: linear-gradient(rgba(122, 66, 66, 0.3), rgba(136, 45, 45, 0.3)), url(Images/Kuma.jpg); */
+    /* background-position: right; */
+    /* background-color: black; */
+    text-align: center;
+    /* background-color:#17202A; */
+    color: white;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    text-justify: auto;
+    height: 550px;
+    width: fit-content;
+    border-color: transparent;
+    bottom: 50px;
+}
+
+.only-name{
+    position: relative;
+    right: 272px;
+}
+
+.only-email{
+    position: relative;
+    right: 272px;
+}
+
+.only-phone{
+    position: relative;
+    right: 242px;
+}
+
+.only-comment{
+    position: relative;
+    right: 230px;
+}
+
+.contact-container h2{
+    padding-top: 50px;
+}
+
+.contact-container h1{
+
+}
+
+.input{
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    border-color: transparent;
+    outline: none;
+}
+
+.input2{
+    height: 50px;
+    width: 600px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: transparent;
+    outline: none;
+}
+
+.submit{
+    position: relative;
+    height: 30px;
+    width: 120px;
+    left: 240px;
+    background-color: gray;
+    color: white ;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 2px 2px white;
+}
+
+.fields{
+    position: relative;
+    left: 450px;
+    margin-right: 450px;
+    color: red;
+    bottom:80px
+}
+
+.from-you{
+    position: relative;
+    left: 600px;
+    color: white;
+}
+
+.first-pics img{
+    position: relative;
+    top: 30px;
+    left: 70px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
